@@ -1,0 +1,53 @@
+
+.about-page-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 20px; 
+  background-color: black;
+  padding-bottom: 60px;
+}
+
+.about-container {
+  background-color: black;
+  padding: 60px 40px;     
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;             
+  max-width: 1000px;     
+  margin: 0 auto;        
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.about-text-block {
+  flex: 1; 
+}
+
+.about-heading {
+  color: white;
+  margin-top: 0;
+  margin-bottom: 15px;
+}
+
+.about-heading2 {
+  color: white;
+  margin-top: 0;
+  margin-bottom: 15px;
+  font-size: 11px;
+}
+
+.about-description {
+  color: white;
+  font-size: 18px;
+  line-height: 1.6;      
+  margin: 0;
+}
+
+.about-selfie {
+  width: 250px;          
+  height: auto;
+  object-fit: cover;
+  border-radius: 4px;    
+}
