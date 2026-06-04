@@ -1,4 +1,3 @@
-
 import BioSection from './BioSection';
 import sethPic from './images/seth-pic.png';
 import harleyPic from './images/harley-pic.png'; 
@@ -6,8 +5,6 @@ import harleyPic from './images/harley-pic.png';
 function About() {
   return (
     <div className="about-page-wrapper">
-      
-     
       <BioSection 
         greeting=""
         description="Hey, I'm Seth. I like Spiderman and Harley."

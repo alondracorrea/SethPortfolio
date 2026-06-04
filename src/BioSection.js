@@ -1,4 +1,3 @@
-
 import './About.css'; 
 
 function BioSection({ greeting, secondGreeting,  description, imageSrc, altText }) {
